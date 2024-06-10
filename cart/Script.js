@@ -56,3 +56,21 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   }
 });
+
+// // Function to add items to the cart
+// function addItem(name, price) {
+//     var cart = document.getElementById("cart");
+//     var item = document.createElement("li");
+//     item.textContent = name + " - $" + price;
+//     cart.appendChild(item);
+// }
+
+// // Event listener for Add to Cart buttons
+// document.querySelectorAll('.add-to-cart').forEach(button => {
+//     button.addEventListener('click', function() {
+//         var name = this.getAttribute('data-name');
+//         var price = parseFloat(this.getAttribute('data-price'));
+//         addItem(name, price);
+//     });
+// });
+
